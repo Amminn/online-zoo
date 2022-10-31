@@ -1340,6 +1340,10 @@ input[type=range]:focus::-ms-fill-upper {
   color: white;
 }
 
+.footer .bottom-footer nav ul a:hover {
+  color: var(--orange-color);
+}
+
 .footer .bottom-footer nav ul a.active {
   color: var(--orange-color);
 }
