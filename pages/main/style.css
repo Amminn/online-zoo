@@ -481,3 +481,73 @@ header .header-wrapper .call-to-action {
 }
 
 /* === header done === */
+
+/* === hero start === */
+
+section.hero {
+  margin-top: -8.1rem;
+  margin-inline: auto;
+  padding: 0;
+  background-image: url('../../assests/images/Giant-Panda.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -0;
+}
+
+.hero .hero-wrapper {
+  min-height: 780px;
+  position: relative;
+}
+
+.hero .hero-wrapper .circle {
+  width: 465px;
+  height: 465px;
+  position: absolute;
+  top: 9.2rem;
+  right: 10.8rem;
+  border-radius: 50%;
+  background: var(--orange-bg-color);
+}
+
+.hero-wrapper h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  max-width: 8ch;
+  font-size: 10.65rem;
+  font-weight: 700;
+  line-height: 80px;
+  position: absolute;
+  right: 5px;
+  top: 165px;
+  margin-bottom: 6rem;
+}
+
+.hero-wrapper h1 span {
+  color: var(--yellow-color);
+}
+
+.hero-wrapper button {
+  position: absolute;
+  width: 298px;
+  height: 54px;
+  left: calc(50% - 298px/2 + 332px);
+  top: 626px;
+  font-weight: 500;
+  background: var(--orange-color);
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.hero-wrapper button:hover {
+  background: #E47209;
+}
+
+/* hero section done */
