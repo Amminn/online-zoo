@@ -5,9 +5,9 @@ emailInput.addEventListener('input', () => {
   if (emailInput.value.length > 0) {
     console.log('clean')
     submitButton.classList.remove("mistake")
-    submitButton.disabled = true;
+    submitButton.disabled = false;
   } else if (emailInput.value.length == 0) {
     submitButton.classList.add("mistake")
-    submitButton.disabled = false;
+    submitButton.disabled = true;
   }
 })
