@@ -145,6 +145,8 @@ header .header-wrapper .call-to-action {
   height: 390px;
   max-width: 100%;
   background: url('../../assests/images/panda_bg_donate.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
