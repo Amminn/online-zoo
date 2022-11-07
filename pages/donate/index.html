@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../assests/cssNormalize/normalize.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Online Zoo</title>
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="logo">
+          <a class="logo-link" href="../main/index.html">
+            <h1>PetStory online</h1>
+          </a>
+        </div>
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="../main/index.html">About</a></li>
+            <li><a href="#">Map</a></li>
+            <li><a href="#">Zoos</a></li>
+            <li><a class="active" href="../donate/index.html">Donate</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li class="call-to-action" ><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" target="_blank">Designed by ©</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero"></section>
+
+  <section class="pick-and-feed">
+    <div class="container">
+
+      <h3 class="title white">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+      <p>Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+
+      <h3 class="title orange">Donation Information</h3>
+      <div class="donation">
+        <h3 class="donation__title">Pick and feed a friend</h3>
+        <p>We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+
+        <div class="count-wrapper">
+          <div class="number">
+            <p class="big-number">4</p>
+            <p class="small-text">Panda diet for the day.</p>
+          </div>
+
+          <div class="x">
+            <img src="../../assests/icons/x_icon.png" alt="close icon">
+          </div>
+
+          <div>
+            <img src="../../assests/icons/panda_widget1.png" alt="panda icon">
+          </div>
+        </div>
+
+        <p class="form-top-text">Amount</p>
+
+        <form class="form">
+          <div class="form-background">
+            <div class="middle-line"></div>
+            <div class="radio">
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="5000" name="money" value="5000">
+                <label class="left" for="5000"><span>$</span>5000</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="2000" name="money" value="2000">
+                <label class="left" for="2000"><span>$</span>2000</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="1000" checked name="money" value="1000">
+                <label class="active" for="1000"><span>$</span>1000</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="500" name="money" value="500">
+                <label class="" for="500"><span>$</span>500</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="250" name="money" value="250">
+                <label class="" for="250"><span>$</span>250</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="100" name="money" value="100">
+                <label class="" for="100"><span>$</span>100</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="50" name="money" value="50">
+                <label class="" for="50"><span>$</span>50</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="25" name="money" value="25">
+                <label class="" for="25"><span>$</span>25</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="another-amount">
+            <div class="another-amount__wrapper"></div>
+            <input type="number" placeholder="Another amount">
+            <p class="dollare">$</p>
+          </div>
+
+          <div class="month-once">
+            <div class="month flex">
+              <input type="radio" name="month-once" id="month" value="month">
+              <label for="month">monthly</label>
+            </div>
+            <div class="once flex">
+              <input type="radio" name="month-once" id="once" value="once" checked>
+              <label for="once">once</label>
+            </div>
+          </div>
+
+        </form>
+        <button class="submit">Feed a friend now</button>
+
+        <p class="final-text">Share with your friends on social networks </p>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="top-footer">
+        <div class="logo">
+          <a href="../main/index.html">
+            <img src="../../assests/images/logo.png" alt="logo">
+          </a>
+        </div>
+        <div class="email">
+          <h3>Subscribe to our news</h3>
+          <form>
+            <input id="emailInput" type="email" placeholder="Enter your email" required>
+            <button id="submitButton" class="mistake">Submit</button>
+          </form>
+        </div>
+      </div>
+
+        <div class="middle-footer">
+          <button onclick="window.location.href = '../donate/index.html';">donate for volunteers</button>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="left">
+            <a href="https://facebook.com" target="_blank">
+              <div class="img">
+                <i class="ri-facebook-fill"></i>
+              </div>
+              facebook
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <div class="img">
+                <i class="ri-twitter-fill"></i>
+              </div>
+              Twitter
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <div class="img">
+                <i class="ri-instagram-line"></i>
+              </div>
+              Instagram
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+              <div class="img">
+                <i class="ri-youtube-fill"></i>
+              </div>
+              Youtube
+            </a>
+          </div>
+
+          <div class="middle">
+            <nav>
+              <ul>
+                <li><a href="#header">About</a></li>
+                <li><a href="#">Map</a></li>
+                <li><a href="#">Zoos</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="right">
+            <p>Designed by Alisa Samborskaya</p>
+            <p>©RSSchool & ©Yem Digital 2021</p>
+          </div>
+        </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
