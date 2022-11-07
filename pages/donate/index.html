@@ -66,27 +66,60 @@
           <div class="form-background">
             <div class="middle-line"></div>
             <div class="radio">
-              <input class="radio-btn" type="radio" id="5000" name="money" value="5000">
-              <input class="radio-btn" type="radio" id="2000" name="money" value="2000">
-              <input class="radio-btn" type="radio" id="1000" name="money" value="1000">
-              <input class="radio-btn" type="radio" id="500" name="money" value="500">
-              <input class="radio-btn" type="radio" id="250" name="money" value="250">
-              <input class="radio-btn" type="radio" id="100" name="money" value="100">
-              <input class="radio-btn" type="radio" id="50" name="money" value="50">
-              <input class="radio-btn" type="radio" id="25" name="money" value="25">
-            </div>
-            <div class="label">
-              <label class="yea" for="5000"><span>$</span>5000</label><br>
-              <label for="2000"><span>$</span>2000</label>
-              <label for="1000"><span>$</span>1000</label>
-              <label for="500"><span>$</span>500</label>
-              <label for="250"><span>$</span>250</label>
-              <label for="100"><span>$</span>100</label>
-              <label for="50"><span>$</span>50</label>
-              <label for="25"><span>$</span>25</label>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="5000" name="money" value="5000">
+                <label class="left" for="5000"><span>$</span>5000</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="2000" name="money" value="2000">
+                <label class="left" for="2000"><span>$</span>2000</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="1000" checked name="money" value="1000">
+                <label class="active" for="1000"><span>$</span>1000</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="500" name="money" value="500">
+                <label class="" for="500"><span>$</span>500</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="250" name="money" value="250">
+                <label class="" for="250"><span>$</span>250</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="100" name="money" value="100">
+                <label class="" for="100"><span>$</span>100</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="50" name="money" value="50">
+                <label class="" for="50"><span>$</span>50</label>
+              </div>
+              <div class="input-label-warraper">
+                <input class="radio-btn" type="radio" id="25" name="money" value="25">
+                <label class="" for="25"><span>$</span>25</label>
+              </div>
             </div>
           </div>
+
+          <div class="another-amount">
+            <div class="another-amount__wrapper"></div>
+            <input type="number" placeholder="Another amount">
+            <p class="dollare">$</p>
+          </div>
+
+          <div class="month-once">
+            <div class="month flex">
+              <input type="radio" name="month-once" id="month" value="month">
+              <label for="month">monthly</label>
+            </div>
+            <div class="once flex">
+              <input type="radio" name="month-once" id="once" value="once" checked>
+              <label for="once">once</label>
+            </div>
+          </div>
+
         </form>
+        <button class="submit">Feed a friend now</button>
 
         <p class="final-text">Share with your friends on social networks </p>
       </div>
