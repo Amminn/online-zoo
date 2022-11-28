@@ -704,3 +704,489 @@ label {
 }
 
 /* === footer ends === */
+
+@media screen and (max-width: 1000px) {
+  .container {
+    /* box-sizing: content-box; */
+    max-width: 94rem;
+    margin-inline: auto;
+  }
+
+  header .header-wrapper .nav-bar ul {
+    gap: 4.8rem;
+  }
+
+  .hero {
+    margin-top: 0rem;
+    background-position: 29% 50%;
+  }
+
+  .pick-and-feed {
+    margin-bottom: 0rem !important;
+    height: 1333px;
+  }
+
+  .pick-and-feed .title {
+    max-width: 778px;
+    margin-bottom: 3rem;
+  }
+
+  .pick-and-feed .white + p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 4.6rem;
+  }
+
+  .pick-and-feed .orange {
+    margin: 0;
+    margin-bottom: 4rem;
+  }
+
+  .pick-and-feed .donation {
+    padding-top: 2rem;
+    padding-inline: 0;
+    height: 918px;
+  }
+
+  .pick-and-feed .donation__title {
+    margin-left: -1.4rem; 
+    margin-bottom: 1rem;
+  }
+
+  .pick-and-feed .donation__title + p {
+    max-width: 849px;
+    margin-left: 4.7rem;
+  }
+  
+  .pick-and-feed .form-background {
+    width: 810px;
+    margin-bottom: 10rem;
+  }
+
+  .pick-and-feed .form-background .middle-line {
+    width: 785px;
+  }
+
+  .pick-and-feed .form-background .radio {
+    width: 785px;
+  }
+
+  .pick-and-feed .form-top-text {
+    margin-left: 6.5rem;
+  }
+  
+  .pick-and-feed .form-background .radio .input-label-warraper.amount5000 {
+    display: none;
+  }
+
+  .pick-and-feed .another-amount {
+    margin-bottom: 2.9rem;
+  }
+
+  .month-once {
+    width: 200px;
+    margin-left: 36.4rem;
+    margin-bottom: 3rem;
+  }
+
+  .footer .top-footer .email {
+    margin-right: 3rem;
+  }
+
+  .footer .bottom-footer nav {
+    margin-left: 9rem;
+}
+
+  .footer .bottom-footer nav ul {
+    gap: 4.8rem;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  header {
+    height: 3.4rem;
+  }
+
+  .container {
+    max-width: 600px;
+  }
+
+  header .header-wrapper {
+    height: 3.4rem;
+  }
+
+  header .header-wrapper .logo {
+    width: 46.86px;
+    height: 29.03px;
+    padding: 0;
+    border: none;
+  }
+
+  header .header-wrapper .logo::after {
+    left: 4.23px;
+    top: 12.64px;
+  }
+
+  header .header-wrapper .logo h1 {
+    font-size: 12.2899px;
+    line-height: 15px;
+  }
+
+  header .header-wrapper .menu-button {
+    display: block;
+    margin-left: auto;
+  }
+
+  header .header-wrapper .nav-bar {
+    display: none;
+  }
+
+  .hero {
+    height: 335px;
+    background-position: 37.5% 50%;
+  }
+
+  .pick-and-feed {
+    padding-top: 3rem; 
+  }
+
+  .pick-and-feed .title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 2rem;
+  }
+
+  .pick-and-feed .white + p {
+    margin-bottom: 3rem;
+  }
+
+  .pick-and-feed .orange {
+    font-size: 3.6rem;
+    line-height: 47px;
+    margin-bottom: 3rem;
+  }
+
+  .pick-and-feed .donation {
+    padding-top: 3rem;
+  }
+
+  .pick-and-feed .donation__title {
+    margin-left: 0.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .pick-and-feed .donation__title + p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    /* or 29px */
+    margin-left: 0rem;
+    margin-bottom: 5rem;
+  }
+
+  .pick-and-feed .count-wrapper .small-text {
+    margin-top: 0.1rem;;
+    margin-left: -0.2rem;
+  }
+
+  .pick-and-feed .count-wrapper {
+    margin-bottom: 3.8rem;
+  }
+
+  .pick-and-feed .form-top-text {
+    margin-left: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .pick-and-feed .form-background .radio .input-label-warraper.hide-640 {
+    display: none;
+  }
+
+  .pick-and-feed .form-background {
+    width: 600px;
+    margin-bottom: 9.7rem;
+  }
+
+  .pick-and-feed .form-background .middle-line {
+    width: 524px;
+  }
+
+  .pick-and-feed .form-background .radio {
+    width: 524px;
+  }
+
+  .pick-and-feed .another-amount {
+    width: 180px;
+    height: 42px;
+    margin-bottom: 3.5rem;
+  }
+
+  .pick-and-feed .another-amount input {
+    height: 42px;
+  }
+
+  .month-once {
+    width: 196px;
+    margin-left: 19.4rem;
+  }
+
+  /* footer section  */
+
+  .footer {
+    padding: 1.3rem 0 1.2rem;
+  }
+
+  .footer .top-footer .email {
+    display: none;
+  }
+
+  .footer .top-footer {
+    margin-bottom: 3.2rem;
+  }
+
+  .footer .bottom-footer .left {
+    position: absolute;
+    right: -0.1rem;
+    top: 1.4rem;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer .bottom-footer .left p {
+    display: none;
+  }
+
+  .footer .bottom-footer nav ul {
+    gap: 3.7rem;
+  }
+
+  .footer .bottom-footer {
+    height: 76px;
+  }
+
+  .footer .bottom-footer nav {
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 300px;
+  }
+
+  header .header-wrapper .logo::after {
+    left: 3.23px;
+    top: 13.64px;
+    width: 8.03px;
+    height: 26.98px;
+  }
+
+  .hero {
+    height: 187px;
+    background-position: 34.5% 50%;
+  }
+
+  .pick-and-feed {
+    height: 1145px;
+  }
+
+  .pick-and-feed .orange {
+    font-size: 3.6rem;
+  }
+
+  .pick-and-feed .orange {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .pick-and-feed .donation {
+    padding-top: 2rem;
+  }
+
+  .pick-and-feed .donation__title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 1rem;
+  }
+
+  .pick-and-feed .donation__title + p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .pick-and-feed .count-wrapper {
+    width: 300px;
+  }
+
+  .pick-and-feed .count-wrapper img {
+    width: 160.15px;
+    height: 138.72px;
+    margin-right: 9px;
+  }
+
+  .pick-and-feed .count-wrapper .number {
+    margin-top: 4.8rem;
+    width: 96px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .pick-and-feed .count-wrapper .big-number {
+    font-weight: 500;
+    font-size: 40.6015px;
+    line-height: 80%;
+  }
+
+  .pick-and-feed .count-wrapper .small-text {
+    font-size: 9px;
+    line-height: 13px;
+    /* identical to box height, or 13px */
+    min-width: 20px;
+  }
+
+  .pick-and-feed .count-wrapper .x img {
+    margin-right: 2.9rem;
+  }
+
+  .pick-and-feed .count-wrapper {
+    margin-bottom: 0.3rem;
+  }
+
+  .pick-and-feed .form-top-text {
+    margin-left: 0;
+  }
+
+  .pick-and-feed .form-background {
+    width: 300px;
+    height: 14px;
+  }
+  
+  .pick-and-feed .form-background .middle-line {
+    width: 262px;
+  }
+
+  .pick-and-feed .form-background .radio {
+    width: 262px;
+  }
+
+  .radio-btn {
+    height: 0.5rem;
+    width: 0.5rem;
+  }
+
+  .radio-btn::before {
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid transparent;
+  }
+
+  .radio-btn::after {
+    content: '';
+    width: 1.8rem;
+    height: 1.8rem;
+    border: 1px solid transparent;
+  }
+
+  .pick-and-feed .form-background .radio .input-label-warraper label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;    
+  }
+
+  .pick-and-feed .form-background .radio .input-label-warraper label span {
+    font-size: 10px;
+  }
+
+  .pick-and-feed .form-background {
+    margin-bottom: 4.7rem;
+  }
+
+  .month-once {
+    margin-left: 4rem;
+  }
+
+  .pick-and-feed .another-amount {
+    margin-bottom: 3rem;
+  }
+
+  .pick-and-feed .final-text {
+    width: 301px;
+  }
+
+  /* footer  */
+
+  .footer {
+    height: 334px;
+    padding-top: 1.8rem;
+  }
+
+  .footer .small-screen-hide {
+    display: none;
+  }
+
+  .footer .top-footer .logo {
+    width: 128px;
+    height: 23px;
+    margin-inline: auto;
+    margin-bottom: 5.6rem;
+  }
+
+  .footer .bottom-footer .left {
+    flex-direction: row;
+    height: 28px;
+    width: 194px;
+    right: 5.5rem;
+    top: 7.2rem;
+    gap: 3rem;
+  }
+
+  .footer .bottom-footer {
+    flex-wrap: wrap;
+  }
+
+  .footer .bottom-footer .left .img {
+    margin-right: 0;
+  }
+
+  .footer .middle-footer button {
+    margin-bottom: 3rem;
+  }
+
+  .footer .bottom-footer .middle {
+    order: 1;
+  }
+
+  .footer .bottom-footer .right {
+    margin-left: auto;
+  }
+
+  .footer .bottom-footer .right p {
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .footer .right p:nth-child(1) {
+    margin-bottom: 1.4rem;
+  }
+
+  .footer .bottom-footer .middle {
+    margin-top: 3rem;
+    width: 278px;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .footer .bottom-footer nav ul {
+    gap: 3rem;
+  }
+
+}
